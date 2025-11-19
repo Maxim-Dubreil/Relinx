@@ -25,10 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className="theme-game">
-      <body
-        className={`${manrope.variable} ${jetBrainsMono.variable} antialiased`}
-      >
+    <html lang="fr" className="theme">
+      <body>
         <Header />
         {children}
       </body>
