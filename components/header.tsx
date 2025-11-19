@@ -18,12 +18,12 @@ export default function Header() {
             <span className="text-foreground">Logique</span>
           </Link>
         </Button>
-        <Button
+        {/* <Button
           size="sm"
           variant="link"
           className="text-foreground cursor-not-allowed"
-        >
-          <Link
+        > */}
+          {/* <Link
             href="/creative"
             className="flex items-center space-x-2 cursor-not-allowed"
           >
@@ -43,7 +43,7 @@ export default function Header() {
             <Swords className="text-foreground" />
             <span className="text-foreground">Duel</span>
           </Link>
-        </Button>
+        </Button> */}
       </div>
     </header>
   );
